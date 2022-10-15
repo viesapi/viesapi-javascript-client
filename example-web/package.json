@@ -1,0 +1,18 @@
+{
+  "name": "viesapi-client-example-web",
+  "version": "1.2.3",
+  "description": "VIES API Client for Javascript - web browser example",
+  "author": "",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "build": "browserify main.js | uglifyjs > dist/viesapi-client-bundle.min.js"
+  },
+  "devDependencies": {
+    "browserify": "latest",
+    "uglify-js": "^3.17.1"
+  },
+  "dependencies": {
+    "viesapi-client": "file:.."
+  }
+}

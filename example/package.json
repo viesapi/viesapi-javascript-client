@@ -1,0 +1,11 @@
+{
+  "name": "viesapi-client-example",
+  "version": "1.2.3",
+  "description": "VIES API Client for Javascript - node.js example",
+  "author": "",
+  "license": "Apache-2.0",
+  "main": "example.js",
+  "dependencies": {
+    "viesapi-client": "file:.."
+  }
+}

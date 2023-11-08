@@ -1,6 +1,6 @@
 {
   "name": "viesapi-client",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "VIES API Client for JavaScript",
   "keywords": [
     "viesapi",
@@ -12,7 +12,7 @@
     "validator"
   ],
   "license": "Apache-2.0",
-  "author": "NETCAT <firma@netcat.pl> (http://www.netcat.pl)",
+  "author": "NETCAT <firma@netcat.pl> (https://www.netcat.pl)",
   "homepage": "https://viesapi.eu",
   "main": "index.js",
   "files": [

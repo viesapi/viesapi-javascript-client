@@ -1,6 +1,6 @@
 {
   "name": "viesapi-client",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "VIES API Client for JavaScript",
   "keywords": [
     "viesapi",
@@ -20,10 +20,10 @@
     "index.js"
   ],
   "dependencies": {
-    "axios": "^0.27.2",
-    "date-fns": "^2.29.3",
-    "url": "^0.11.0",
+    "axios": "1.6.0",
+    "date-fns": "^4.1.0",
+    "url": "^0.11.4",
     "xmldom": "^0.6.0",
-    "xpath": "^0.0.32"
+    "xpath": "^0.0.34"
   }
 }

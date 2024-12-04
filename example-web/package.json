@@ -1,6 +1,6 @@
 {
   "name": "viesapi-client-example-web",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "VIES API Client for Javascript - web browser example",
   "author": "NETCAT <firma@netcat.pl> (https://www.netcat.pl)",
   "license": "Apache-2.0",

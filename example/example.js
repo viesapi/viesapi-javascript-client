@@ -1,5 +1,5 @@
 /**
- * Copyright 2022-2024 NETCAT (www.netcat.pl)
+ * Copyright 2022-2025 NETCAT (www.netcat.pl)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  * @author NETCAT <firma@netcat.pl>
- * @copyright 2022-2024 NETCAT (www.netcat.pl)
+ * @copyright 2022-2025 NETCAT (www.netcat.pl)
  * @license http://www.apache.org/licenses/LICENSE-2.0
  */
 
@@ -42,6 +42,13 @@ viesapi.getAccountStatus().then((account) => {
 // Get VIES data from VIES system
 viesapi.getVIESData(vat_id).then((vies) => {
 	console.log(vies.toString());
+}).catch((e) => {
+	console.log(e.message);
+});
+
+// Get VIES data returning parsed trader address from VIES system
+viesapi.getVIESDataParsed(vat_id).then((vies_parsed) => {
+	console.log(vies_parsed.toString());
 }).catch((e) => {
 	console.log(e.message);
 });

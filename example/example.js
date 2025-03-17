@@ -52,3 +52,27 @@ viesapi.getVIESDataParsed(vat_id).then((vies_parsed) => {
 }).catch((e) => {
 	console.log(e.message);
 });
+
+// Upload batch of VAT numbers and get their current VAT statuses and traders data
+const numbers = [
+	vat_id,
+	'DK56314210',
+	'CZ7710043187'
+];
+
+viesapi.getVIESDataAsync(numbers).then((token) => {
+	console.log('Batch token: ' + token);
+
+	// Check batch result and download data (at production it usually takes 2-3 min for result to be ready)
+	const looper = setInterval(() => {
+		viesapi.getVIESDataAsyncResult(token).then((result) => {
+			// Batch result is ready
+			console.log(result.toString());
+			clearInterval(looper);
+		}).catch((e) => {
+			console.log(e.message);
+		});
+	}, 10000);
+}).catch((e) => {
+	console.log(e.message);
+});

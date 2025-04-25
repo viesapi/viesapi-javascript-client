@@ -46,7 +46,7 @@ viesapi.getVIESData(vat_id).then((vies) => {
 	console.log(e.message);
 });
 
-// Get VIES data returning parsed trader address from VIES system
+// Get VIES data returning parsed trader name and address from VIES system
 viesapi.getVIESDataParsed(vat_id).then((vies_parsed) => {
 	console.log(vies_parsed.toString());
 }).catch((e) => {

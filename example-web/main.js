@@ -36,7 +36,7 @@ async function fetchData() {
         accountStatus:   await viesapi.getAccountStatus(),
         // Get VIES data from VIES system
         viesData:        await viesapi.getVIESData(nip_eu),
-        // Get VIES data returning parsed trader address from VIES system
+        // Get VIES data returning parsed trader name and address from VIES system
         viesDataParsed:  await viesapi.getVIESDataParsed(nip_eu)
     };
 }

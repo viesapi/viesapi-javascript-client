@@ -32,6 +32,8 @@ const nip_eu = 'PL7171642051';
 
 async function fetchData() {
     return {
+        // Get current EU VIES system status
+        viesStatus:      await viesapi.getVIESStatus(),
         // Get current account status
         accountStatus:   await viesapi.getAccountStatus(),
         // Get VIES data from VIES system
@@ -50,6 +52,7 @@ fetchData().then(data => {
                 <th>Function</th>
                 <th>Result</th>
             </tr>
+            ${createRow('getVIESStatus()', data.viesStatus)}
             ${createRow('getAccountStatus()', data.accountStatus)}
             ${createRow('getVIESData()', data.viesData)}
             ${createRow('getVIESDataParsed()', data.viesDataParsed)}

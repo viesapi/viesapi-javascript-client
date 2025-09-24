@@ -32,6 +32,13 @@ const viesapi = new VIESAPI.VIESAPIClient();
 
 const vat_id = 'PL7171642051';
 
+// Get current EU VIES system status
+viesapi.getVIESStatus().then((vies) => {
+    console.log(vies.toString());
+}).catch((e) => {
+    console.log(e.message);
+});
+
 // Get current account status
 viesapi.getAccountStatus().then((account) => {
 	console.log(account.toString());

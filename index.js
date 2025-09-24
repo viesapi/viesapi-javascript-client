@@ -23,6 +23,7 @@
 
 module.exports = {
 	AccountStatus: require('./lib/accountstatus'),
+    CountryStatus: require('./lib/countrystatus'),
 	Err: require('./lib/error'),
 	EUVAT: require('./lib/euvat'),
 	NIP: require('./lib/nip'),
@@ -33,5 +34,6 @@ module.exports = {
 	AddressComponents: require('./lib/addresscomponents'),
 	VIESData: require('./lib/viesdata'),
 	VIESError: require('./lib/vieserror'),
+    VIESStatus: require('./lib/viesstatus'),
 	BatchResult: require('./lib/batchresult')
 };

@@ -1,21 +1,45 @@
 # VIES API Client for JavaScript
 
-This is the official repository for VIES API Client for JavaScript: https://viesapi.eu
+This is the official repository for [VIES API](https://viesapi.eu) Client for JavaScript.
 
-Viesapi.eu service provides selected entrepreneurs data using i.a. web services, programming libraries and dedicated applications.
-By using the available software (libraries, applications and Excel add-in) your customers will be able to:
+[VIES API](https://viesapi.eu) provides selected entrepreneurs' data using, among others, web services, programming
+libraries, and dedicated applications. By using the available software (libraries, applications and Excel add-in)
+your customers will be able to:
 
-* check contractors EU VAT number status in VIES system,
+* check contractors' EU VAT number status in VIES system,
 * download company details from VIES system,
-* automatic fill in the invoice forms,
+* automatically fill in the invoice forms,
 
 in the fastest possible way.
 
-# Documentation
+## Documentation
 
-The documentation and samples are available at https://viesapi.eu/docs/
+The documentation and samples are available [here](https://viesapi.eu/vies-programming-libraries/).
 
-# License
+## Build
+
+Node.js 22+ is required to build this library. Building is only required to generate TypeScript definitions.
+
+```bash
+git clone https://github.com/viesapi/viesapi-javascript-client.git
+cd viesapi-javascript-client
+npm install
+npm run build:types
+```
+
+## How to use
+
+The release version of the library is published in [NPM](https://www.npmjs.com/package/viesapi-client).
+Add the following dependency using the _npm_ tool:
+
+```bash
+npm install viesapi-client
+```
+
+The _example_ and _example-esm_ directories contains a sample usages from a Node.js application, and the _example-web_
+directory contains a sample usage from an HTML web application.
+
+## License
 
 This project is delivered under Apache License, Version 2.0:
 

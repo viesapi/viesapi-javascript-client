@@ -20,20 +20,34 @@
 
 'use strict';
 
+const Err = require('./lib/error');
+const Number = require('./lib/number');
+const EUVAT = require('./lib/euvat');
+const NIP = require('./lib/nip');
+const LegalForm = require('./lib/legalform');
+const AccountStatus = require('./lib/accountstatus');
+const AddressComponents = require('./lib/addresscomponents');
+const BatchResult = require('./lib/batchresult');
+const CountryStatus = require('./lib/countrystatus');
+const NameComponents = require('./lib/namecomponents');
+const VIESData = require('./lib/viesdata');
+const VIESError = require('./lib/vieserror');
+const VIESStatus = require('./lib/viesstatus');
+const VIESAPIClient = require('./lib/viesapiclient');
 
 module.exports = {
-	AccountStatus: require('./lib/accountstatus'),
-    CountryStatus: require('./lib/countrystatus'),
-	Err: require('./lib/error'),
-	EUVAT: require('./lib/euvat'),
-	NIP: require('./lib/nip'),
-	VIESAPIClient: require('./lib/viesapiclient'),
-	Number: require('./lib/number'),
-	LegalForm: require('./lib/legalform'),
-	NameComponents: require('./lib/namecomponents'),
-	AddressComponents: require('./lib/addresscomponents'),
-	VIESData: require('./lib/viesdata'),
-	VIESError: require('./lib/vieserror'),
-    VIESStatus: require('./lib/viesstatus'),
-	BatchResult: require('./lib/batchresult')
+    Err,
+    Number,
+    EUVAT,
+    NIP,
+    LegalForm,
+	AccountStatus,
+    AddressComponents,
+    BatchResult,
+    CountryStatus,
+	NameComponents,
+	VIESData,
+	VIESError,
+    VIESStatus,
+    VIESAPIClient
 };

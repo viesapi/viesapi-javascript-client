@@ -1,0 +1,15 @@
+import Err = require("./lib/error");
+import Number = require("./lib/number");
+import EUVAT = require("./lib/euvat");
+import NIP = require("./lib/nip");
+import LegalForm = require("./lib/legalform");
+import AccountStatus = require("./lib/accountstatus");
+import AddressComponents = require("./lib/addresscomponents");
+import BatchResult = require("./lib/batchresult");
+import CountryStatus = require("./lib/countrystatus");
+import NameComponents = require("./lib/namecomponents");
+import VIESData = require("./lib/viesdata");
+import VIESError = require("./lib/vieserror");
+import VIESStatus = require("./lib/viesstatus");
+import VIESAPIClient = require("./lib/viesapiclient");
+export { Err, Number, EUVAT, NIP, LegalForm, AccountStatus, AddressComponents, BatchResult, CountryStatus, NameComponents, VIESData, VIESError, VIESStatus, VIESAPIClient };

@@ -1,0 +1,62 @@
+export const CLI_CONNECT: 201;
+export const CLI_RESPONSE: 202;
+export const CLI_NUMBER: 203;
+export const CLI_NIP: 204;
+export const CLI_EUVAT: 205;
+export const CLI_EXCEPTION: 206;
+export const CLI_DATEFORMAT: 207;
+export const CLI_INPUT: 208;
+export const CLI_BATCH_SIZE: 209;
+/**
+ * Get error message
+ * @param {number} code error code
+ * @return {string|null} error message
+ */
+export function message(code: number): string | null;
+export declare let NIP_BAD: number;
+export declare let CONTENT_SYNTAX: number;
+export declare let INVALID_PATH: number;
+export declare let EXCEPTION: number;
+export declare let NO_PERMISSION: number;
+export declare let GEN_INVOICES: number;
+export declare let GEN_SPEC_INV: number;
+export declare let SEND_INVOICE: number;
+export declare let SEND_ANNOUNCEMENT: number;
+export declare let INVOICE_PAYMENT: number;
+export declare let SEARCH_KEY_EMPTY: number;
+export declare let EUVAT_BAD: number;
+export declare let VIES_SYNC: number;
+export declare let PLAN_FEATURE: number;
+export declare let SEARCH_TYPE: number;
+export declare let NIP_FEATURE: number;
+export declare let TEST_MODE: number;
+export declare let ACCESS_DENIED: number;
+export declare let MAINTENANCE: number;
+export declare let BILLING_PLANS: number;
+export declare let DOCUMENT_PDF: number;
+export declare let EXPORT_PDF: number;
+export declare let GROUP_CHECKS: number;
+export declare let CLIENT_COUNTERS: number;
+export declare let SEND_REMAINDER: number;
+export declare let EXPORT_JPK: number;
+export declare let GEN_ORDER_INV: number;
+export declare let SEND_EXPIRATION: number;
+export declare let ORDER_CANCEL: number;
+export declare let AUTH_TIMESTAMP: number;
+export declare let AUTH_MAC: number;
+export declare let SEND_MAIL: number;
+export declare let AUTH_KEY: number;
+export declare let VIES_TOO_MANY_REQ: number;
+export declare let VIES_UNAVAILABLE: number;
+export declare let GEOCODE: number;
+export declare let BATCH_SIZE: number;
+export declare let BATCH_PROCESSING: number;
+export declare let BATCH_REJECTED: number;
+export declare let DB_AUTH_IP: number;
+export declare let DB_AUTH_KEY_STATUS: number;
+export declare let DB_AUTH_KEY_VALUE: number;
+export declare let DB_AUTH_OVER_PLAN: number;
+export declare let DB_CLIENT_LOCKED: number;
+export declare let DB_CLIENT_TYPE: number;
+export declare let DB_CLIENT_NOT_PAID: number;
+export declare let DB_AUTH_KEYID_VALUE: number;

@@ -1,9 +1,9 @@
 /**
  * Normalizes form of the NIP number
  * @param {string} number input string
- * @return {string} normalized number
+ * @return {string|undefined} normalized number
  */
-export function normalize(number: string): string;
+export function normalize(number: string): string | undefined;
 /**
  * Checks if specified NIP is valid
  * @param {string} number input number

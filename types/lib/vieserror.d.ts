@@ -5,29 +5,29 @@ export = VIESError;
 declare function VIESError(): void;
 declare class VIESError {
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    uid: string;
+    uid: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    countryCode: string;
+    countryCode: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    vatNumber: string;
+    vatNumber: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    error: string;
+    error: string | undefined;
     /**
-     * @type {Date}
+     * @type {Date|undefined}
      */
-    date: Date;
+    date: Date | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    source: string;
+    source: string | undefined;
     /**
      * String representation
      * @return {string} object info

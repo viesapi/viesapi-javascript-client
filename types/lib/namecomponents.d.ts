@@ -5,21 +5,21 @@ export = NameComponents;
 declare function NameComponents(): void;
 declare class NameComponents {
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    name: string;
+    name: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    legalForm: string;
+    legalForm: string | undefined;
     /**
-     * @type {number} LegalForm values
+     * @type {number|undefined} LegalForm values
      */
-    legalFormCanonicalId: number;
+    legalFormCanonicalId: number | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    legalFormCanonicalName: string;
+    legalFormCanonicalName: string | undefined;
     /**
      * String representation
      * @return {string} object info

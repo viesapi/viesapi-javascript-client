@@ -1,16 +1,16 @@
 export = VIESAPIClient;
 /**
  * Construct new service client object
- * @param {string} id API key identifier
- * @param {string} key API key
+ * @param {string} [id] API key identifier
+ * @param {string} [key] API key
  * @constructor
  */
 declare function VIESAPIClient(id?: string, key?: string): void;
 declare class VIESAPIClient {
     /**
      * Construct new service client object
-     * @param {string} id API key identifier
-     * @param {string} key API key
+     * @param {string} [id] API key identifier
+     * @param {string} [key] API key
      * @constructor
      */
     constructor(id?: string, key?: string);

@@ -5,33 +5,33 @@ export = AddressComponents;
 declare function AddressComponents(): void;
 declare class AddressComponents {
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    country: string;
+    country: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    postalCode: string;
+    postalCode: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    city: string;
+    city: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    street: string;
+    street: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    streetNumber: string;
+    streetNumber: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    houseNumber: string;
+    houseNumber: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    other: string;
+    other: string | undefined;
     /**
      * String representation
      * @return {string} object info

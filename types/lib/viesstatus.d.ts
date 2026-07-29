@@ -5,13 +5,13 @@ export = VIESStatus;
 declare function VIESStatus(): void;
 declare class VIESStatus {
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    uid: string;
+    uid: string | undefined;
     /**
-     * @type {boolean}
+     * @type {boolean|undefined}
      */
-    available: boolean;
+    available: boolean | undefined;
     /**
      * @type {CountryStatus[]}
      */

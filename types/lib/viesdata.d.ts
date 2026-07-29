@@ -5,53 +5,53 @@ export = VIESData;
 declare function VIESData(): void;
 declare class VIESData {
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    uid: string;
+    uid: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    countryCode: string;
+    countryCode: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    vatNumber: string;
+    vatNumber: string | undefined;
     /**
-     * @type {boolean}
+     * @type {boolean|undefined}
      */
-    valid: boolean;
+    valid: boolean | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    traderName: string;
+    traderName: string | undefined;
     /**
-     * @type {NameComponents}
+     * @type {NameComponents|undefined}
      */
-    traderNameComponents: NameComponents;
+    traderNameComponents: NameComponents | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    traderCompanyType: string;
+    traderCompanyType: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    traderAddress: string;
+    traderAddress: string | undefined;
     /**
-     * @type {AddressComponents}
+     * @type {AddressComponents|undefined}
      */
-    traderAddressComponents: AddressComponents;
+    traderAddressComponents: AddressComponents | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    id: string;
+    id: string | undefined;
     /**
-     * @type {Date}
+     * @type {Date|undefined}
      */
-    date: Date;
+    date: Date | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    source: string;
+    source: string | undefined;
     /**
      * String representation
      * @return {string} object info

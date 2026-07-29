@@ -5,9 +5,9 @@ export = BatchResult;
 declare function BatchResult(): void;
 declare class BatchResult {
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    uid: string;
+    uid: string | undefined;
     /**
      * @type {VIESData[]}
      */

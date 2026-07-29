@@ -5,93 +5,93 @@ export = AccountStatus;
 declare function AccountStatus(): void;
 declare class AccountStatus {
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    uid: string;
+    uid: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    type: string;
+    type: string | undefined;
     /**
-     * @type {Date}
+     * @type {Date|undefined}
      */
-    validTo: Date;
+    validTo: Date | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    billingPlanName: string;
+    billingPlanName: string | undefined;
     /**
-     * @type {number}
+     * @type {number|undefined}
      */
-    subscriptionPrice: number;
+    subscriptionPrice: number | undefined;
     /**
-     * @type {number}
+     * @type {number|undefined}
      */
-    itemPrice: number;
+    itemPrice: number | undefined;
     /**
-     * @type {number}
+     * @type {number|undefined}
      */
-    itemPriceStatus: number;
+    itemPriceStatus: number | undefined;
     /**
-     * @type {number}
+     * @type {number|undefined}
      */
-    itemPriceParsed: number;
+    itemPriceParsed: number | undefined;
     /**
-     * @type {number}
+     * @type {number|undefined}
      */
-    limit: number;
+    limit: number | undefined;
     /**
-     * @type {number}
+     * @type {number|undefined}
      */
-    requestDelay: number;
+    requestDelay: number | undefined;
     /**
-     * @type {number}
+     * @type {number|undefined}
      */
-    domainLimit: number;
+    domainLimit: number | undefined;
     /**
-     * @type {boolean}
+     * @type {boolean|undefined}
      */
-    overPlanAllowed: boolean;
+    overPlanAllowed: boolean | undefined;
     /**
-     * @type {boolean}
+     * @type {boolean|undefined}
      */
-    excelAddIn: boolean;
+    excelAddIn: boolean | undefined;
     /**
-     * @type {boolean}
+     * @type {boolean|undefined}
      */
-    app: boolean;
+    app: boolean | undefined;
     /**
-     * @type {boolean}
+     * @type {boolean|undefined}
      */
-    cli: boolean;
+    cli: boolean | undefined;
     /**
-     * @type {boolean}
+     * @type {boolean|undefined}
      */
-    stats: boolean;
+    stats: boolean | undefined;
     /**
-     * @type {boolean}
+     * @type {boolean|undefined}
      */
-    monitor: boolean;
+    monitor: boolean | undefined;
     /**
-     * @type {boolean}
+     * @type {boolean|undefined}
      */
-    funcGetVIESData: boolean;
+    funcGetVIESData: boolean | undefined;
     /**
-     * @type {boolean}
+     * @type {boolean|undefined}
      */
-    funcGetVIESDataParsed: boolean;
+    funcGetVIESDataParsed: boolean | undefined;
     /**
-     * @type {number}
+     * @type {number|undefined}
      */
-    viesDataCount: number;
+    viesDataCount: number | undefined;
     /**
-     * @type {number}
+     * @type {number|undefined}
      */
-    viesDataParsedCount: number;
+    viesDataParsedCount: number | undefined;
     /**
-     * @type {number}
+     * @type {number|undefined}
      */
-    totalCount: number;
+    totalCount: number | undefined;
     /**
      * String representation
      * @return {string} object info

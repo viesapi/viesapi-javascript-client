@@ -5,13 +5,13 @@ export = CountryStatus;
 declare function CountryStatus(): void;
 declare class CountryStatus {
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    countryCode: string;
+    countryCode: string | undefined;
     /**
-     * @type {string}
+     * @type {string|undefined}
      */
-    status: string;
+    status: string | undefined;
     UNKNOWN: string;
     AVAILABLE: string;
     UNAVAILABLE: string;

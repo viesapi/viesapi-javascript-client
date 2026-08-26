@@ -43,6 +43,10 @@ declare class AccountStatus {
     /**
      * @type {number|undefined}
      */
+    additionalQueries: number | undefined;
+    /**
+     * @type {number|undefined}
+     */
     requestDelay: number | undefined;
     /**
      * @type {number|undefined}
